@@ -8,5 +8,8 @@ This code uses the raw Amazon review and metadata files to generate the processe
 
 1. Download the required domain-wise **review** and **meta** files from the Amazon Reviews 2023 dataset.
 2. Put all downloaded files in the same folder as `run_data.py`.
+
 Run the script:
+
+```bash
 python run_data.py
