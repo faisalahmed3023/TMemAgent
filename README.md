@@ -13,3 +13,20 @@ Run the script:
 
 ```bash
 python run_data.py
+```
+
+## Load Data
+
+After generating the processed files, load the dataset using the `Data_Structure` class available in `Data.py`.
+
+## Train Recommender Model
+
+After loading the data, create the recommender environment using `recommendation_model.py`.
+
+The supported recommender models include:
+
+- `MF`
+- `LightGCN`
+- `SASRec`
+
+An example of the recommender environment setup is provided in `environment.py`.
